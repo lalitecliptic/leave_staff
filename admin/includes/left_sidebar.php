@@ -29,7 +29,7 @@
 					</li> -->
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="micon dw dw-library"></span><span class="mtext">Members</span>
+							<span class="micon dw dw-user-1"></span><span class="mtext">Members</span>
 						</a>
 						<ul class="submenu">
 							<li><a href="add_staff.php">New Members</a></li>
@@ -39,7 +39,7 @@
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="micon dw dw-library"></span><span class="mtext">Local body</span>
+							<span class="micon dw dw-chat-2"></span><span class="mtext">Local body</span>
 						</a>
 						<ul class="submenu">
 							<li><a href="add_staff.php">New Staff</a></li>
@@ -49,7 +49,7 @@
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="micon dw dw-library"></span><span class="mtext">Department</span>
+							<span class="micon dw dw-apartment"></span><span class="mtext">Department</span>
 						</a>
 						<ul class="submenu">
 							<!-- <li><a href="add_staff.php">Department</a></li> -->
@@ -59,7 +59,7 @@
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="micon dw dw-library"></span><span class="mtext">Results</span>
+							<span class="micon dw dw-analytics-3"></span><span class="mtext">Results</span>
 						</a>
 						<ul class="submenu">
 							<li><a href="add_staff.php">Lok Sabha</a></li>
@@ -69,7 +69,7 @@
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="micon dw dw-library"></span><span class="mtext">Accepted work</span>
+							<span class="micon  dw dw-notebook"></span><span class="mtext">Accepted work</span>
 						</a>
 						<ul class="submenu">
 							<li><a href="add_staff.php">Vote</a></li>
@@ -79,7 +79,7 @@
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="micon dw dw-library"></span><span class="mtext">Map</span>
+							<span class="micon  dw dw-pin-1"></span><span class="mtext">Map</span>
 						</a>
 						<ul class="submenu">
 							<li><a href="add_staff.php">Location</a></li>
@@ -89,7 +89,7 @@
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="micon dw dw-library"></span><span class="mtext">Legislative Secretariat</span>
+							<span class="micon dw dw-mortarboard"></span><span class="mtext">Legislative Secretariat</span>
 						</a>
 						<ul class="submenu">
 							<li><a href="add_staff.php">Legislative Question</a></li>
@@ -100,7 +100,7 @@
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="micon dw dw-library"></span><span class="mtext">Important Doc</span>
+							<span class="micon dw dw-download"></span><span class="mtext">Important Doc</span>
 						</a>
 						<ul class="submenu">
 							<li><a href="add_staff.php">Documents</a></li>
