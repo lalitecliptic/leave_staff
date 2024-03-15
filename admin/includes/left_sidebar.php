@@ -49,22 +49,22 @@
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="micon dw dw-library"></span><span class="mtext">Staff</span>
+							<span class="micon dw dw-library"></span><span class="mtext">Department</span>
 						</a>
 						<ul class="submenu">
-							<li><a href="add_staff.php">New Staff</a></li>
-							<li><a href="department.php"> Department</a></li>
-							<li><a href="staff.php">Manage Staff</a></li>
+							<!-- <li><a href="add_staff.php">Department</a></li> -->
+							<li><a href="department.php"> Manage Department</a></li>
+							<!-- <li><a href="staff.php">Manage Staff</a></li> -->
 						</ul>
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="micon dw dw-library"></span><span class="mtext">Staff</span>
+							<span class="micon dw dw-library"></span><span class="mtext">Results</span>
 						</a>
 						<ul class="submenu">
-							<li><a href="add_staff.php">New Staff</a></li>
-							<li><a href="department.php"> Department</a></li>
-							<li><a href="staff.php">Manage Staff</a></li>
+							<li><a href="add_staff.php">Lok Sabha</a></li>
+							<li><a href="department.php">Vidhan Sabha</a></li>
+							<!-- <li><a href="staff.php">Manage Staff</a></li> -->
 						</ul>
 					</li>
 					<li class="dropdown">
