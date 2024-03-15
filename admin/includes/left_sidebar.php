@@ -69,54 +69,46 @@
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="micon dw dw-library"></span><span class="mtext">Staff</span>
+							<span class="micon dw dw-library"></span><span class="mtext">Accepted work</span>
 						</a>
 						<ul class="submenu">
-							<li><a href="add_staff.php">New Staff</a></li>
-							<li><a href="department.php"> Department</a></li>
-							<li><a href="staff.php">Manage Staff</a></li>
+							<li><a href="add_staff.php">Vote</a></li>
+							<li><a href="department.php">Department</a></li>
+							<li><a href="staff.php">Vidhayak Nidhi</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="micon dw dw-library"></span><span class="mtext">Staff</span>
+							<span class="micon dw dw-library"></span><span class="mtext">Map</span>
 						</a>
 						<ul class="submenu">
-							<li><a href="add_staff.php">New Staff</a></li>
-							<li><a href="department.php"> Department</a></li>
-							<li><a href="staff.php">Manage Staff</a></li>
+							<li><a href="add_staff.php">Location</a></li>
+							<!-- <li><a href="department.php"> Department</a></li>
+							<li><a href="staff.php">Manage Staff</a></li> -->
 						</ul>
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="micon dw dw-library"></span><span class="mtext">Staff</span>
+							<span class="micon dw dw-library"></span><span class="mtext">Legislative Secretariat</span>
 						</a>
 						<ul class="submenu">
-							<li><a href="add_staff.php">New Staff</a></li>
-							<li><a href="department.php"> Department</a></li>
-							<li><a href="staff.php">Manage Staff</a></li>
+							<li><a href="add_staff.php">Legislative Question</a></li>
+							<li><a href="department.php">Application</a></li>
+							<li><a href="staff.php">Budght</a></li>
+							<li><a href="staff.php">Discussion</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="micon dw dw-library"></span><span class="mtext">Staff</span>
+							<span class="micon dw dw-library"></span><span class="mtext">Important Doc</span>
 						</a>
 						<ul class="submenu">
-							<li><a href="add_staff.php">New Staff</a></li>
-							<li><a href="department.php"> Department</a></li>
-							<li><a href="staff.php">Manage Staff</a></li>
+							<li><a href="add_staff.php">Documents</a></li>
+							<!-- <li><a href="department.php"> Department</a></li>
+							<li><a href="staff.php">Manage Staff</a></li> -->
 						</ul>
 					</li>
-					<li class="dropdown">
-						<a href="javascript:;" class="dropdown-toggle">
-							<span class="micon dw dw-library"></span><span class="mtext">Staff</span>
-						</a>
-						<ul class="submenu">
-							<li><a href="add_staff.php">New Staff</a></li>
-							<li><a href="department.php"> Department</a></li>
-							<li><a href="staff.php">Manage Staff</a></li>
-						</ul>
-					</li>
+					
 					<!-- <li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
 							<span class="micon dw dw-apartment"></span><span class="mtext"> Leave </span>
