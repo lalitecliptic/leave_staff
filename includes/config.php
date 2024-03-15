@@ -3,9 +3,9 @@
 define('DB_HOST','localhost');
 define('DB_USER','root');
 define('DB_PASS','');
-define('DB_NAME','leave_staff');
+define('DB_NAME','eclipticinnovations');
 
-$conn = mysqli_connect('localhost','root','','leave_staff') or die(mysqli_error());
+$conn = mysqli_connect('localhost','root','','eclipticinnovations') or die(mysqli_error());
 
 // Establish database connection.
 try
