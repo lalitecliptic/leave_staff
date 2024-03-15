@@ -29,17 +29,17 @@
 					</li> -->
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="micon dw dw-library"></span><span class="mtext">Staff</span>
+							<span class="micon dw dw-library"></span><span class="mtext">Members</span>
 						</a>
 						<ul class="submenu">
-							<li><a href="add_staff.php">New Staff</a></li>
-							<li><a href="department.php"> Department</a></li>
-							<li><a href="staff.php">Manage Staff</a></li>
+							<li><a href="add_staff.php">New Members</a></li>
+							<li><a href="department.php">Manage Members Department</a></li>
+							<li><a href="staff.php">Manage Members</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="micon dw dw-library"></span><span class="mtext">Staff</span>
+							<span class="micon dw dw-library"></span><span class="mtext">Local body</span>
 						</a>
 						<ul class="submenu">
 							<li><a href="add_staff.php">New Staff</a></li>
