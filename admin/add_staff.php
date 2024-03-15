@@ -165,12 +165,12 @@
 								</div>
 
 								<div class="row">
-									<div class="col-md-4 col-sm-12">
+									<!-- <div class="col-md-4 col-sm-12">
 										<div class="form-group">
 											<label>Staff Leave Days :</label>
 											<input name="leave_days" type="number" class="form-control" required="true" autocomplete="off">
 										</div>
-									</div>
+									</div> -->
 									
 									<div class="col-md-4 col-sm-12">
 										<div class="form-group">

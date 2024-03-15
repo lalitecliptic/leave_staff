@@ -17,15 +17,25 @@
 						</a>
 						
 					</li>
-					<li>
+					<!-- <li>
 						<a href="department.php" class="dropdown-toggle no-arrow">
 							<span class="micon dw dw-calendar1"></span><span class="mtext">Department</span>
 						</a>
-					</li>
-					<li>
+					</li> -->
+					<!-- <li>
 						<a href="leave_type.php" class="dropdown-toggle no-arrow">
 							<span class="micon dw dw-calendar1"></span><span class="mtext">Leave Type</span>
 						</a>
+					</li> -->
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle">
+							<span class="micon dw dw-library"></span><span class="mtext">Staff</span>
+						</a>
+						<ul class="submenu">
+							<li><a href="add_staff.php">New Staff</a></li>
+							<li><a href="department.php"> Department</a></li>
+							<li><a href="staff.php">Manage Staff</a></li>
+						</ul>
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
@@ -33,10 +43,81 @@
 						</a>
 						<ul class="submenu">
 							<li><a href="add_staff.php">New Staff</a></li>
+							<li><a href="department.php"> Department</a></li>
 							<li><a href="staff.php">Manage Staff</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle">
+							<span class="micon dw dw-library"></span><span class="mtext">Staff</span>
+						</a>
+						<ul class="submenu">
+							<li><a href="add_staff.php">New Staff</a></li>
+							<li><a href="department.php"> Department</a></li>
+							<li><a href="staff.php">Manage Staff</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle">
+							<span class="micon dw dw-library"></span><span class="mtext">Staff</span>
+						</a>
+						<ul class="submenu">
+							<li><a href="add_staff.php">New Staff</a></li>
+							<li><a href="department.php"> Department</a></li>
+							<li><a href="staff.php">Manage Staff</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle">
+							<span class="micon dw dw-library"></span><span class="mtext">Staff</span>
+						</a>
+						<ul class="submenu">
+							<li><a href="add_staff.php">New Staff</a></li>
+							<li><a href="department.php"> Department</a></li>
+							<li><a href="staff.php">Manage Staff</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle">
+							<span class="micon dw dw-library"></span><span class="mtext">Staff</span>
+						</a>
+						<ul class="submenu">
+							<li><a href="add_staff.php">New Staff</a></li>
+							<li><a href="department.php"> Department</a></li>
+							<li><a href="staff.php">Manage Staff</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle">
+							<span class="micon dw dw-library"></span><span class="mtext">Staff</span>
+						</a>
+						<ul class="submenu">
+							<li><a href="add_staff.php">New Staff</a></li>
+							<li><a href="department.php"> Department</a></li>
+							<li><a href="staff.php">Manage Staff</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle">
+							<span class="micon dw dw-library"></span><span class="mtext">Staff</span>
+						</a>
+						<ul class="submenu">
+							<li><a href="add_staff.php">New Staff</a></li>
+							<li><a href="department.php"> Department</a></li>
+							<li><a href="staff.php">Manage Staff</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle">
+							<span class="micon dw dw-library"></span><span class="mtext">Staff</span>
+						</a>
+						<ul class="submenu">
+							<li><a href="add_staff.php">New Staff</a></li>
+							<li><a href="department.php"> Department</a></li>
+							<li><a href="staff.php">Manage Staff</a></li>
+						</ul>
+					</li>
+					<!-- <li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
 							<span class="micon dw dw-apartment"></span><span class="mtext"> Leave </span>
 						</a>
@@ -47,7 +128,7 @@
 							<li><a href="approved_leave.php">Approved Leave</a></li>
 							<li><a href="rejected_leave.php">Rejected Leave</a></li>
 						</ul>
-					</li>
+					</li> -->
 
 					<li>
 						<div class="dropdown-divider"></div>
