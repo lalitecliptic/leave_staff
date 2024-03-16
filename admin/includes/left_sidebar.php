@@ -1,9 +1,9 @@
 <div class="left-side-bar">
 		<div class="brand-logo">
 			<a href="admin_dashboard.php">
-				<!-- <img src="../vendors/images/comp-logo.png" alt="" class="dark-logo "> -->
-				<!-- <img src="../vendors/images/company-logo.png" alt="" class="light-logo text-warning" > -->
-				<h4>Ecliptic Innovations</h4>
+				<img src="../vendors/images/dark-logo.png" alt="" class="dark-logo ">
+				<img src="../vendors/images/logo2.png" alt="" class="light-logo text-warning" >
+				<!-- <h4>Ecliptic Innovations</h4> -->
 			</a>
 			<div class="close-sidebar" data-toggle="left-sidebar-close">
 				<i class="ion-close-round"></i>
