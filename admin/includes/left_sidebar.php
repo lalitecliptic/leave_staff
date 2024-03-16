@@ -53,7 +53,7 @@
 						</a>
 						<ul class="submenu">
 							<!-- <li><a href="add_staff.php">Department</a></li> -->
-							<li><a href="department.php"> Manage Department</a></li>
+							<li><a href=""> Manage Department</a></li>
 							<!-- <li><a href="staff.php">Manage Staff</a></li> -->
 						</ul>
 					</li>

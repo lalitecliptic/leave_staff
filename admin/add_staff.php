@@ -17,7 +17,7 @@
 	$phonenumber=$_POST['phonenumber']; 
 	$status=1;
 
-	 $query = mysqli_query($conn,"select * from tblemployees where EmailId = '$email'")or die(mysqli_error());
+	 $query = mysqli_query($conn,"select * from tblemployees_members where EmailId = '$email'")or die(mysqli_error());
 	 $count = mysqli_num_rows($query);
      
      if ($count > 0){ ?>
@@ -26,7 +26,7 @@
 	</script>
 	<?php
       }else{
-        mysqli_query($conn,"INSERT INTO tblemployees(FirstName,LastName,EmailId,Password,Gender,Dob,Department,Address,Av_leave,role,Phonenumber,Status, location) VALUES('$fname','$lname','$email','$password','$gender','$dob','$department','$address','$leave_days','$user_role','$phonenumber','$status', 'NO-IMAGE-AVAILABLE.jpg')         
+        mysqli_query($conn,"INSERT INTO tblemployees_members(FirstName,LastName,EmailId,Password,Gender,Dob,Department,Address,Av_leave,role,Phonenumber,Status, location) VALUES('$fname','$lname','$email','$password','$gender','$dob','$department','$address','$leave_days','$user_role','$phonenumber','$status', 'NO-IMAGE-AVAILABLE.jpg')         
 		") or die(mysqli_error()); ?>
 		<script>alert('Staff Records Successfully  Added');</script>;
 		<script>
@@ -39,17 +39,28 @@
 
 <body>
 	<div class="pre-loader">
-		<div class="pre-loader-box">
-			<div class="loader-logo"><img src="../vendors/images/deskapp-logo-svg.png" alt=""></div>
-			<div class='loader-progress' id="progress_div">
-				<div class='bar' id='bar1'></div>
-			</div>
-			<div class='percent' id='percent1'>0%</div>
-			<div class="loading-text">
-				Loading...
-			</div>
-		</div>
-	</div>
+    <div class="pre-loader-box">
+        <div class="loader-logo"><img src="../vendors/images/deskapp-logo-svg.png" alt=""></div>
+        <div class='loader-progress' id="progress_div">
+            <div class='bar' id='bar1'></div>
+        </div>
+        <div class='percent' id='percent1'>0%</div>
+        <div class="loading-text">
+            Loading...
+        </div>
+    </div>
+
+    <script>
+        // Inline JavaScript to reduce loader time
+        window.addEventListener('load', function() {
+            var loader = document.querySelector('.pre-loader');
+            setTimeout(function() {
+                loader.style.display = 'none';
+            }, 500); // Adjust this delay (in milliseconds) to your desired timing
+        });
+    </script>
+</div>
+
 
 	<?php include('includes/navbar.php')?>
 
@@ -153,7 +164,7 @@
 											<select name="department" class="custom-select form-control" required="true" autocomplete="off">
 												<option value="">Select Department</option>
 													<?php
-													$query = mysqli_query($conn,"select * from tbldepartments");
+													$query = mysqli_query($conn,"select * from tbldepartments_members");
 													while($row = mysqli_fetch_array($query)){
 													
 													?>

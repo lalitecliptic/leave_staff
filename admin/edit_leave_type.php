@@ -34,17 +34,28 @@
 ?>
 <body>
 	<div class="pre-loader">
-		<div class="pre-loader-box">
-			<div class="loader-logo"><img src="../vendors/images/deskapp-logo-svg.png" alt=""></div>
-			<div class='loader-progress' id="progress_div">
-				<div class='bar' id='bar1'></div>
-			</div>
-			<div class='percent' id='percent1'>0%</div>
-			<div class="loading-text">
-				Loading...
-			</div>
-		</div>
-	</div>
+    <div class="pre-loader-box">
+        <div class="loader-logo"><img src="../vendors/images/deskapp-logo-svg.png" alt=""></div>
+        <div class='loader-progress' id="progress_div">
+            <div class='bar' id='bar1'></div>
+        </div>
+        <div class='percent' id='percent1'>0%</div>
+        <div class="loading-text">
+            Loading...
+        </div>
+    </div>
+
+    <script>
+        // Inline JavaScript to reduce loader time
+        window.addEventListener('load', function() {
+            var loader = document.querySelector('.pre-loader');
+            setTimeout(function() {
+                loader.style.display = 'none';
+            }, 500); // Adjust this delay (in milliseconds) to your desired timing
+        });
+    </script>
+</div>
+
 
 	<?php include('includes/navbar.php')?>
 

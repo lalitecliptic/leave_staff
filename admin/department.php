@@ -4,7 +4,7 @@
 <?php 
 	 if (isset($_GET['delete'])) {
 		$department_id = $_GET['delete'];
-		$sql = "DELETE FROM tbldepartments where id = ".$department_id;
+		$sql = "DELETE FROM tbldepartments_members where id = ".$department_id;
 		$result = mysqli_query($conn, $sql);
 		if ($result) {
 			echo "<script>alert('Department deleted Successfully');</script>";
@@ -20,14 +20,14 @@
 	 $deptname=$_POST['departmentname'];
 	$deptshortname=$_POST['departmentshortname'];
 
-     $query = mysqli_query($conn,"select * from tbldepartments where DepartmentName = '$deptname'")or die(mysqli_error());
+     $query = mysqli_query($conn,"select * from tbldepartments_members where DepartmentName = '$deptname'")or die(mysqli_error());
 	 $count = mysqli_num_rows($query);
      
      if ($count > 0){ 
      	echo "<script>alert('Department Already exist');</script>";
       }
       else{
-        $query = mysqli_query($conn,"insert into tbldepartments (DepartmentName, DepartmentShortName)
+        $query = mysqli_query($conn,"insert into tbldepartments_members (DepartmentName, DepartmentShortName)
   		 values ('$deptname', '$deptshortname')      
 		") or die(mysqli_error()); 
 
@@ -42,17 +42,28 @@
 ?>
 <body>
 	<div class="pre-loader">
-		<div class="pre-loader-box">
-			<div class="loader-logo"><img src="../vendors/images/deskapp-logo-svg.png" alt=""></div>
-			<div class='loader-progress' id="progress_div">
-				<div class='bar' id='bar1'></div>
-			</div>
-			<div class='percent' id='percent1'>0%</div>
-			<div class="loading-text">
-				Loading...
-			</div>
-		</div>
-	</div>
+    <div class="pre-loader-box">
+        <div class="loader-logo"><img src="../vendors/images/deskapp-logo-svg.png" alt=""></div>
+        <div class='loader-progress' id="progress_div">
+            <div class='bar' id='bar1'></div>
+        </div>
+        <div class='percent' id='percent1'>0%</div>
+        <div class="loading-text">
+            Loading...
+        </div>
+    </div>
+
+    <script>
+        // Inline JavaScript to reduce loader time
+        window.addEventListener('load', function() {
+            var loader = document.querySelector('.pre-loader');
+            setTimeout(function() {
+                loader.style.display = 'none';
+            }, 500); // Adjust this delay (in milliseconds) to your desired timing
+        });
+    </script>
+</div>
+
 
 	<?php include('includes/navbar.php')?>
 
@@ -128,7 +139,7 @@
 										</thead>
 										<tbody>
 
-											<?php $sql = "SELECT * from tbldepartments";
+											<?php $sql = "SELECT * from tbldepartments_members";
 											$query = $dbh -> prepare($sql);
 											$query->execute();
 											$results=$query->fetchAll(PDO::FETCH_OBJ);

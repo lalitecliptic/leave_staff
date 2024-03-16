@@ -16,17 +16,28 @@ if (isset($_GET['delete'])) {
 
 <body>
 	<div class="pre-loader">
-		<div class="pre-loader-box">
-			<div class="loader-logo"><img src="../vendors/images/deskapp-logo-svg.png" alt=""></div>
-			<div class='loader-progress' id="progress_div">
-				<div class='bar' id='bar1'></div>
-			</div>
-			<div class='percent' id='percent1'>0%</div>
-			<div class="loading-text">
-				Loading...
-			</div>
-		</div>
-	</div>
+    <div class="pre-loader-box">
+        <div class="loader-logo"><img src="../vendors/images/deskapp-logo-svg.png" alt=""></div>
+        <div class='loader-progress' id="progress_div">
+            <div class='bar' id='bar1'></div>
+        </div>
+        <div class='percent' id='percent1'>0%</div>
+        <div class="loading-text">
+            Loading...
+        </div>
+    </div>
+
+    <script>
+        // Inline JavaScript to reduce loader time
+        window.addEventListener('load', function() {
+            var loader = document.querySelector('.pre-loader');
+            setTimeout(function() {
+                loader.style.display = 'none';
+            }, 500); // Adjust this delay (in milliseconds) to your desired timing
+        });
+    </script>
+</div>
+
 
 	<?php include('includes/navbar.php')?>
 
@@ -135,7 +146,7 @@ if (isset($_GET['delete'])) {
 								<th>EMAIL</th>
 								<th>DEPARTMENT</th>
 								<th>POSITION</th>
-								<th>AVE. LEAVE</th>
+								<th>ADDRESS</th>
 								<th class="datatable-nosort">ACTION</th>
 							</tr>
 						</thead>
@@ -161,7 +172,7 @@ if (isset($_GET['delete'])) {
 								<td><?php echo $row['EmailId']; ?></td>
 	                            <td><?php echo $row['DepartmentName']; ?></td>
 								<td><?php echo $row['role']; ?></td>
-								<td><?php echo $row['Av_leave']; ?></td>
+								<td><?php echo $row['Address']; ?></td>
 								<td>
 									<div class="dropdown">
 										<a class="btn btn-link font-24 p-0 line-height-1 no-arrow dropdown-toggle" href="#" role="button" data-toggle="dropdown">
