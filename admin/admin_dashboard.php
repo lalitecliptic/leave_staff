@@ -188,8 +188,8 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 mb-20">
-					<div class="card-box height-100-p pd-20 min-height-200px">
+				<div class="col-lg-4 col-md-6 mb-20 rounded-lg">
+					<!-- <div class="card-box height-100-p pd-20 min-height-200px">
 						<div class="d-flex justify-content-between">
 							<div class="h5 mb-0">Application Setup</div>
 							<div class="table-actions">
@@ -198,7 +198,8 @@
 						</div>
 
 						<div id="application-chart"></div>
-					</div>
+					</div> -->
+					<img src="../vendors//images/map.png"  class="shadow p-3 mb-5 bg-white rounded-lg " alt="">
 				</div>
 				<div class="col-lg-4 col-md-6 mb-20">
 					<div class="card-box height-100-p pd-20 min-height-200px">
