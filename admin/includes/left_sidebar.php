@@ -95,7 +95,7 @@
 						<ul class="submenu">
 							<li><a href="">Legislative Question</a></li>
 							<li><a href="">Application</a></li>
-							<li><a href="">Budght</a></li>
+							<li><a href="">Budget</a></li>
 							<li><a href="">Discussion</a></li>
 						</ul>
 					</li>
