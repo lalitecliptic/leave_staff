@@ -93,76 +93,17 @@
 								<div class="row">
 									<div class="col-md-4 col-sm-12">
 										<div class="form-group">
-											<label >First Name :</label>
-											<input name="firstname" type="text" class="form-control wizard-required" required="true" autocomplete="off">
-										</div>
-									</div>
-									<div class="col-md-4 col-sm-12">
-										<div class="form-group">
-											<label >Last Name :</label>
-											<input name="lastname" type="text" class="form-control" required="true" autocomplete="off">
-										</div>
-									</div>
-									<div class="col-md-4 col-sm-12">
-										<div class="form-group">
-											<label>Email Address :</label>
-											<input name="email" type="email" class="form-control" required="true" autocomplete="off">
-										</div>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-md-4 col-sm-12">
-										<div class="form-group">
 											<label>Password :</label>
 											<input name="password" type="password" placeholder="**********" class="form-control" required="true" autocomplete="off">
 										</div>
 									</div>
+									
 									<div class="col-md-4 col-sm-12">
 										<div class="form-group">
-											<label>Gender :</label>
-											<select name="gender" class="custom-select form-control" required="true" autocomplete="off">
-												<option value="">Select Gender</option>
-												<option value="male">Male</option>
-												<option value="female">Female</option>
-											</select>
-										</div>
+											<label>Retype Password :</label>
+                                            <input name="password" type="password" placeholder="**********" class="form-control" required="true" autocomplete="off">										</div>
 									</div>
-									<div class="col-md-4 col-sm-12">
-										<div class="form-group">
-											<label>Phone Number :</label>
-											<input name="phonenumber" type="text" class="form-control" required="true" autocomplete="off">
-										</div>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-md-4 col-sm-12">
-										<div class="form-group">
-											<label>Date Of Birth :</label>
-											<input name="dob" type="text" class="form-control date-picker" required="true" autocomplete="off">
-										</div>
-									</div>
-									<div class="col-md-4 col-sm-12">
-										<div class="form-group">
-											<label>Address :</label>
-											<input name="address" type="text" class="form-control" required="true" autocomplete="off">
-										</div>
-									</div>
-									<div class="col-md-4 col-sm-12">
-										<div class="form-group">
-											<label>Department :</label>
-											<select name="department" class="custom-select form-control" required="true" autocomplete="off">
-												<option value="">Select Department</option>
-													<?php
-													$query = mysqli_query($conn,"select * from tbldepartments");
-													while($row = mysqli_fetch_array($query)){
-													
-													?>
-													<option value="<?php echo $row['DepartmentShortName']; ?>"><?php echo $row['DepartmentName']; ?></option>
-													<?php } ?>
-											</select>
-										</div>
-									</div>
-								</div>
+								
 
 								<div class="row">
 									<!-- <div class="col-md-4 col-sm-12">
@@ -171,23 +112,11 @@
 											<input name="leave_days" type="number" class="form-control" required="true" autocomplete="off">
 										</div>
 									</div> -->
-									
 									<div class="col-md-4 col-sm-12">
 										<div class="form-group">
-											<label>User Role :</label>
-											<select name="user_role" class="custom-select form-control" required="true" autocomplete="off">
-												<option value="">Select Role</option>
-												<!-- <option value="Admin">Admin</option> -->
-												<option value="HOD">HOD</option>
-												<option value="Staff">Staff</option>
-											</select>
-										</div>
-									</div>
-
-									<div class="col-md-4 col-sm-12">
-										<div class="form-group">
-											<label style="font-size:16px;"><b></b></label>
+											<!-- <label style="font-size:16px;"><b></b></label>  -->
 											<div class="modal-footer justify-content-center">
+                                                
 												<button class="btn btn-primary" name="add_staff" id="add_staff" data-toggle="modal">Add&nbsp;Staff</button>
 											</div>
 										</div>
