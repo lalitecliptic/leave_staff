@@ -62,8 +62,8 @@
 							<span class="micon dw dw-analytics-3"></span><span class="mtext">Results</span>
 						</a>
 						<ul class="submenu">
-							<li><a href="add_staff.php">Lok Sabha</a></li>
-							<li><a href="department.php">Vidhan Sabha</a></li>
+							<li><a href="">Lok Sabha</a></li>
+							<li><a href="">Vidhan Sabha</a></li>
 							<!-- <li><a href="staff.php">Manage Staff</a></li> -->
 						</ul>
 					</li>
@@ -72,9 +72,9 @@
 							<span class="micon  dw dw-notebook"></span><span class="mtext">Accepted work</span>
 						</a>
 						<ul class="submenu">
-							<li><a href="add_staff.php">Vote</a></li>
-							<li><a href="department.php">Department</a></li>
-							<li><a href="staff.php">Vidhayak Nidhi</a></li>
+							<li><a href="">Vote</a></li>
+							<li><a href="">Department</a></li>
+							<li><a href="">Vidhayak Nidhi</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
@@ -82,7 +82,7 @@
 							<span class="micon  dw dw-pin-1"></span><span class="mtext">Map</span>
 						</a>
 						<ul class="submenu">
-							<li><a href="add_staff.php">Location</a></li>
+							<li><a href="">Location</a></li>
 							<!-- <li><a href="department.php"> Department</a></li>
 							<li><a href="staff.php">Manage Staff</a></li> -->
 						</ul>
@@ -92,10 +92,10 @@
 							<span class="micon dw dw-mortarboard"></span><span class="mtext">Legislative Secretariat</span>
 						</a>
 						<ul class="submenu">
-							<li><a href="add_staff.php">Legislative Question</a></li>
-							<li><a href="department.php">Application</a></li>
-							<li><a href="staff.php">Budght</a></li>
-							<li><a href="staff.php">Discussion</a></li>
+							<li><a href="">Legislative Question</a></li>
+							<li><a href="">Application</a></li>
+							<li><a href="">Budght</a></li>
+							<li><a href="">Discussion</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
@@ -103,7 +103,7 @@
 							<span class="micon dw dw-download"></span><span class="mtext">Important Doc</span>
 						</a>
 						<ul class="submenu">
-							<li><a href="add_staff.php">Documents</a></li>
+							<li><a href="">Documents</a></li>
 							<!-- <li><a href="department.php"> Department</a></li>
 							<li><a href="staff.php">Manage Staff</a></li> -->
 						</ul>
@@ -129,7 +129,7 @@
 						<div class="sidebar-small-cap">Extra</div>
 					</li>
 					<li>
-						<a href="https://kpro.netlify.app/" class="dropdown-toggle no-arrow">
+						<a href="https://www.eclipticinnovations.com" class="dropdown-toggle no-arrow">
 							<span class="micon dw dw-edit-2"></span><span class="mtext">Visit Us</span>
 						</a>
 					</li>
