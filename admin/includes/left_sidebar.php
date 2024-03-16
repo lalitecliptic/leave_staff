@@ -82,7 +82,7 @@
 							<span class="micon  dw dw-pin-1"></span><span class="mtext">Map</span>
 						</a>
 						<ul class="submenu">
-							<li><a href="">Location</a></li>
+							<li><a href="map.php">Location</a></li>
 							<!-- <li><a href="department.php"> Department</a></li>
 							<li><a href="staff.php">Manage Staff</a></li> -->
 						</ul>

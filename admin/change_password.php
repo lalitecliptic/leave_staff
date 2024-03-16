@@ -68,12 +68,12 @@
 					<div class="row">
 						<div class="col-md-6 col-sm-12">
 							<div class="title">
-								<h4>Staff Portal</h4>
+								<h4>Reset Password</h4>
 							</div>
 							<nav aria-label="breadcrumb" role="navigation">
 								<ol class="breadcrumb">
 									<li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
-									<li class="breadcrumb-item active" aria-current="page">Staff Module</li>
+									<li class="breadcrumb-item active" aria-current="page">Reset Password</li>
 								</ol>
 							</nav>
 						</div>
@@ -83,13 +83,14 @@
 				<div class="pd-20 card-box mb-30">
 					<div class="clearfix">
 						<div class="pull-left">
-							<h4 class="text-blue h4">Staff Form</h4>
+							<h4 class="text-blue h4">Reset Password</h4>
 							<p class="mb-20"></p>
 						</div>
 					</div>
 					<div class="wizard-content">
-						<form method="post" action="">
+                    <form method="post" action="">
 							<section>
+								
 								<div class="row">
 									<div class="col-md-4 col-sm-12">
 										<div class="form-group">
@@ -97,14 +98,13 @@
 											<input name="password" type="password" placeholder="**********" class="form-control" required="true" autocomplete="off">
 										</div>
 									</div>
-									
 									<div class="col-md-4 col-sm-12">
 										<div class="form-group">
-											<label>Retype Password :</label>
+											<label>Rytype Password :</label>
                                             <input name="password" type="password" placeholder="**********" class="form-control" required="true" autocomplete="off">										</div>
 									</div>
+								</div>
 								
-
 								<div class="row">
 									<!-- <div class="col-md-4 col-sm-12">
 										<div class="form-group">
@@ -112,12 +112,14 @@
 											<input name="leave_days" type="number" class="form-control" required="true" autocomplete="off">
 										</div>
 									</div> -->
+									
+									
+
 									<div class="col-md-4 col-sm-12">
 										<div class="form-group">
-											<!-- <label style="font-size:16px;"><b></b></label>  -->
+											<label style="font-size:16px;"><b></b></label>
 											<div class="modal-footer justify-content-center">
-                                                
-												<button class="btn btn-primary" name="add_staff" id="add_staff" data-toggle="modal">Add&nbsp;Staff</button>
+												<button class="btn btn-primary" name="change_pass" id="change_pass" data-toggle="modal">Submit</button>
 											</div>
 										</div>
 									</div>
