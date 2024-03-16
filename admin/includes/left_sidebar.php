@@ -42,9 +42,9 @@
 							<span class="micon dw dw-chat-2"></span><span class="mtext">Local body</span>
 						</a>
 						<ul class="submenu">
-							<li><a href="add_staff.php">New Staff</a></li>
-							<li><a href="department.php"> Department</a></li>
-							<li><a href="staff.php">Manage Staff</a></li>
+							<li><a href="add_staff_local.php">New Staff</a></li>
+							<li><a href="department_local.php"> Department</a></li>
+							<li><a href="staff_local.php">Manage Staff</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
