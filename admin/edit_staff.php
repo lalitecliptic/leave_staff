@@ -16,7 +16,7 @@
 	$user_role=$_POST['user_role']; 
 	$phonenumber=$_POST['phonenumber']; 
 
-	$result = mysqli_query($conn,"update tblemployees set FirstName='$fname', LastName='$lname', EmailId='$email', Gender='$gender', Dob='$dob', Department='$department', Address='$address', Av_leave='$leave_days', role='$user_role', Phonenumber='$phonenumber' where emp_id='$get_id'         
+	$result = mysqli_query($conn,"update tblemployees_members set FirstName='$fname', LastName='$lname', EmailId='$email', Gender='$gender', Dob='$dob', Department='$department', Address='$address', Av_leave='$leave_days', role='$user_role', Phonenumber='$phonenumber' where emp_id='$get_id'         
 		"); 		
 	if ($result) {
      	echo "<script>alert('Record Successfully Updated');</script>";
@@ -83,7 +83,7 @@
 						<form method="post" action="">
 							<section>
 								<?php
-									$query = mysqli_query($conn,"select * from tblemployees where emp_id = '$get_id' ")or die(mysqli_error());
+									$query = mysqli_query($conn,"select * from tblemployees_members where emp_id = '$get_id' ")or die(mysqli_error());
 									$row = mysqli_fetch_array($query);
 									?>
 
@@ -149,13 +149,13 @@
 											<label>Department :</label>
 											<select name="department" class="custom-select form-control" required="true" autocomplete="off">
 												<?php
-													$query_staff = mysqli_query($conn,"select * from tblemployees join  tbldepartments where emp_id = '$get_id'")or die(mysqli_error());
+													$query_staff = mysqli_query($conn,"select * from tblemployees_members join  tbldepartments_members where emp_id = '$get_id'")or die(mysqli_error());
 													$row_staff = mysqli_fetch_array($query_staff);
 													
 												 ?>
 												<option value="<?php echo $row_staff['DepartmentShortName']; ?>"><?php echo $row_staff['DepartmentName']; ?></option>
 													<?php
-													$query = mysqli_query($conn,"select * from tbldepartments");
+													$query = mysqli_query($conn,"select * from tbldepartments_members");
 													while($row = mysqli_fetch_array($query)){
 													
 													?>
@@ -167,7 +167,7 @@
 								</div>
 
 								<?php
-									$query = mysqli_query($conn,"select * from tblemployees where emp_id = '$get_id' ")or die(mysqli_error());
+									$query = mysqli_query($conn,"select * from tblemployees_members where emp_id = '$get_id' ")or die(mysqli_error());
 									$new_row = mysqli_fetch_array($query);
 									?>
 								<div class="row">

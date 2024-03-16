@@ -3,7 +3,7 @@
 <?php
 if (isset($_GET['delete'])) {
 	$delete = $_GET['delete'];
-	$sql = "DELETE FROM tblemployees where emp_id = ".$delete;
+	$sql = "DELETE FROM tblemployees_members where emp_id = ".$delete;
 	$result = mysqli_query($conn, $sql);
 	if ($result) {
 		echo "<script>alert('Staff deleted Successfully');</script>";
@@ -46,7 +46,7 @@ if (isset($_GET['delete'])) {
 					<div class="card-box height-100-p widget-style3">
 
 						<?php
-						$sql = "SELECT emp_id from tblemployees";
+						$sql = "SELECT emp_id from tblemployees_members";
 						$query = $dbh -> prepare($sql);
 						$query->execute();
 						$results=$query->fetchAll(PDO::FETCH_OBJ);
@@ -68,7 +68,7 @@ if (isset($_GET['delete'])) {
 					<div class="card-box height-100-p widget-style3">
 
 						<?php 
-						 $query_reg_staff = mysqli_query($conn,"select * from tblemployees where role = 'Staff' ")or die(mysqli_error());
+						 $query_reg_staff = mysqli_query($conn,"select * from tblemployees_members where role = 'Staff' ")or die(mysqli_error());
 						 $count_reg_staff = mysqli_num_rows($query_reg_staff);
 						 ?>
 
@@ -87,7 +87,7 @@ if (isset($_GET['delete'])) {
 					<div class="card-box height-100-p widget-style3">
 
 						<?php 
-						 $query_reg_hod = mysqli_query($conn,"select * from tblemployees where role = 'HOD' ")or die(mysqli_error());
+						 $query_reg_hod = mysqli_query($conn,"select * from tblemployees_members where role = 'HOD' ")or die(mysqli_error());
 						 $count_reg_hod = mysqli_num_rows($query_reg_hod);
 						 ?>
 
@@ -106,7 +106,7 @@ if (isset($_GET['delete'])) {
 					<div class="card-box height-100-p widget-style3">
 
 						<?php 
-						 $query_reg_admin = mysqli_query($conn,"select * from tblemployees where role = 'Admin' ")or die(mysqli_error());
+						 $query_reg_admin = mysqli_query($conn,"select * from tblemployees_members where role = 'Admin' ")or die(mysqli_error());
 						 $count_reg_admin = mysqli_num_rows($query_reg_admin);
 						 ?>
 
@@ -143,7 +143,7 @@ if (isset($_GET['delete'])) {
 							<tr>
 
 								 <?php
-		                         $teacher_query = mysqli_query($conn,"select * from tblemployees LEFT JOIN tbldepartments ON tblemployees.Department = tbldepartments.DepartmentShortName where role != 'Admin' ORDER BY tblemployees.emp_id") or die(mysqli_error());
+		                         $teacher_query = mysqli_query($conn,"select * from tblemployees_members LEFT JOIN tbldepartments_members ON tblemployees_members.Department = tbldepartments_members.DepartmentShortName where role != 'Admin' ORDER BY tblemployees_members.emp_id") or die(mysqli_error());
 		                         while ($row = mysqli_fetch_array($teacher_query)) {
 		                         $id = $row['emp_id'];
 		                             ?>
